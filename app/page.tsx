@@ -30,10 +30,12 @@ export default function Home() {
         <div className="container mx-auto px-6">
           <h2 className="text-3xl font-semibold mb-6">About Us</h2>
           <p className="text-lg text-gray-300 mb-4">
-            At Shaves & Shears, we are committed to providing the best grooming
-            experience with skilled professionals who understand your needs.
-            Whether you're looking for a classic cut or a modern style, we’ve
-            got you covered.
+            {
+              "At Shaves & Shears, we are committed to providing the best grooming\
+            experience with skilled professionals who understand your needs.\
+            Whether you're looking for a classic cut or a modern style,\
+            we've got you covered."
+            }
           </p>
           <p className="text-lg text-gray-300">
             Our barbers have over 10 years of experience, and we ensure

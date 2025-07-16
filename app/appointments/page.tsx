@@ -20,9 +20,11 @@ export default function Appointments() {
               Hieu Nguyen
             </h3>
             <p className="text-gray-300 mb-4">
-              Hieu has over 10 years of experience in providing precision cuts
-              and grooming. Whether you're looking for a classic or modern
-              style, Hieu is your guy.
+              {
+                "Hieu has over 10 years of experience in providing precision cuts\
+              and grooming. Whether you're looking for a classic or modern\
+              style, Hieu is your guy."
+              }
             </p>
             <Link href={HIEU_BOOKING_URL} passHref target="blank">
               <Button className="bg-yellow-400 text-black hover:bg-yellow-500 px-6 py-3 rounded-md">
