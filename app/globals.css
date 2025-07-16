@@ -1,5 +1,5 @@
-@import "tailwindcss";
-@import "tw-animate-css";
+@import 'tailwindcss';
+@import 'tw-animate-css';
 
 @custom-variant dark (&:is(.dark *));
 
@@ -118,5 +118,29 @@
   }
   body {
     @apply bg-background text-foreground;
+  }
+  button,
+  [role='button'] {
+    cursor: pointer;
+  }
+  .btn-primary {
+    @apply bg-primary text-primary-foreground;
+    border-radius: var(--radius-sm);
+  }
+  .btn-secondary {
+    @apply bg-secondary text-secondary-foreground;
+    border-radius: var(--radius-md);
+  }
+}
+
+@layer components {
+  .btn {
+    @apply py-2 px-4 rounded-md;
+  }
+  .btn-primary {
+    @apply bg-primary text-primary-foreground;
+  }
+  .btn-secondary {
+    @apply bg-secondary text-secondary-foreground;
   }
 }
